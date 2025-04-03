@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffefea; /* Soft pastel peach */
+    display: flex;/* Enables flexbox layout */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;/* Makes the page take the full height of the screen */
+    margin: 0;
+}
+
+.container {
+    text-align: center;/* Centers the text inside */
+    background: #f7d9e3; /* Pastel pink */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for a better fit */
+}
+
+h2 {
+    color: #555;
+}
+
+textarea {
+    width: 95%; /* Slightly reduced width for spacing */
+    height: 100px;/* Fixes the height of the textarea */
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #a0c4ff; /* Soft pastel blue */
+    border-radius: 8px;
+    outline: none;/* Removes the default focus outline */
+    /* outline is a visual indicator (usually a blue or black glow) that appears when an element, like a textarea, gains focus */
+    resize: none;/* Disables resizing to keep the layout consistent */
+    background-color: #ffffff;
+}
+
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.limit-reached {
+    border-color: #ff6b6b !important; /* Only red border, no background change */
+}
